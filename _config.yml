@@ -1,0 +1,10 @@
+permalink: /:title
+paginate: 10
+url: http://www.bashprofile.com
+markdown: rdiscount
+title: bashprofile
+author:
+    name: Mark Miyashita
+    email: negativetwelve@gmail.com
+    gihub: negativetwelve
+    twitter: negativetwelve
