@@ -1,4 +1,4 @@
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:title
 pygments: true
 paginate: 10
 url: http://bashprofile.com
