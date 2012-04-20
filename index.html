@@ -4,7 +4,16 @@ title: bash_profile
 ---
 
 <ul id="posts">
-  {% for post in site.posts %}
+  <h2 class="nine columns offset-by-four">Most Recent</h2>
+  {% for post in site.posts limit:10 %}
+    <li>
+      <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
+      <span class="three columns">{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+  
+  <h2 class="nine columns offset-by-four">Unix</h2>
+  {% for post in site.categories.unix limit:10 %}
     <li>
       <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
       <span class="three columns">{{ post.date | date_to_string }}</span>

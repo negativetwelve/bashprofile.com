@@ -6,7 +6,7 @@ author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239
 date: 2012-04-19 13:49:00 -8
-category: unix
+categories: unix
 ---
 
 In Unix or any sort of Terminal interface the quickest way to navigate through folders is to use the <code>cd</code> command. You simply type:
@@ -27,15 +27,13 @@ In Unix, one dot "." resembles the current directory, while two dots ".." signif
 
 To reiterate, if my folder structure was
 
-{% highlight bash %}
-~/folder/sample/structure/files
-{% endhighlight %}
+<code>~/folder/sample/structure/files</code>
 
 and I was in the "sample" folder, to get to the folder called "folder" I would simply just type
- 
+
 {% highlight bash %}
 cd ..
-{% endhighlght %}
+{% endhighlight %}
 
 To get to the folder labeled "structure" I would type
 
