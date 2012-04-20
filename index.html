@@ -4,19 +4,24 @@ title: bash_profile
 ---
 
 <ul id="posts">
-  <h2 class="nine columns offset-by-four">Most Recent</h2>
+  <h3 class="nine columns offset-by-four">Most Recent</h3>
   {% for post in site.posts limit:10 %}
+  {% if post.article == true %}
     <li>
       <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
       <span class="three columns">{{ post.date | date_to_string }}</span>
     </li>
+  {% endif %}
   {% endfor %}
-  
-  <h2 class="nine columns offset-by-four">Unix</h2>
+
+  <h3 class="nine columns offset-by-four">Unix</h3>
   {% for post in site.categories.unix limit:10 %}
+  {% if post.article == true %}
     <li>
       <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
       <span class="three columns">{{ post.date | date_to_string }}</span>
+      <a class="nine columns offset-by-four" href="{{site.url}}/unix">See more Unix posts</a>
     </li>
+  {% endif %}
   {% endfor %}
 </ul>
