@@ -16,32 +16,27 @@ In Unix or any sort of Terminal interface the quickest way to navigate through f
 cd 'folder_name'
 {% endhighlight %}
 
-to change the directory into the folder name. 
-
-A simple shortcut to change into the directory one level up is to type in
+to change the directory into the folder name. A simple shortcut to change into the directory one level up is to type in:
 
 {% highlight bash %}
 cd ..
 {% endhighlight %}
 
-In Unix, one dot "." resembles the current directory, while two dots ".." signifies one directory up.
-
-To reiterate, if my folder structure was
+In Unix, one dot "." resembles the current directory, while two dots ".." signifies one directory up. To reiterate, if my folder structure was:
 
 <code>~/folder/sample/structure/files</code>
 
-and I was in the "sample" folder, to get to the folder called "folder" I would simply just type
+and I was in the "sample" folder, to get to the folder called "folder" I would simply just type:
 
 {% highlight bash %}
 cd ..
 {% endhighlight %}
 
-To get to the folder labeled "structure" I would type
+To get to the folder labeled "structure" I would type:
 
 {% highlight bash %}
 cd structure
 {% endhighlight %}
 
 It is that simple!
-
 Hope this hint helped you! Please post in the comments below with suggestions of future articles and questions, thank you!

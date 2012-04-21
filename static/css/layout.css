@@ -18,9 +18,9 @@
 ================================================== */
 
 body {
-  margin: 20px;
+  margin: 10px;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 h1 { font-size: 46px; }
@@ -30,7 +30,7 @@ h1 { font-size: 46px; }
 }
 
 #posts {
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 #posts span {
@@ -77,12 +77,17 @@ a:visited { color: #607890; }
 }
 
 pre {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 code {
   font-size: 90%;
   font-family: Monaco, Consolas, monospace;
+}
+
+article {
+  line-height: 0.3;
+  margin: 5px;
 }
 
 article li {
@@ -105,6 +110,13 @@ article li li li {
 
 /* #Page Styles
 ================================================== */
+
+.about-me {
+  font-size: 10pt;
+  margin: 5px;
+}
+
+
 
 /* #Media Queries
 ================================================== */
