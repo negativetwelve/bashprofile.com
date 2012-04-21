@@ -13,29 +13,31 @@ article: true
 In Unix or any sort of Terminal interface the quickest way to navigate through folders is to use the <code>cd</code> command. You simply type:
 
 {% highlight bash %}
-cd 'folder_name'
+    cd 'folder_name'
 {% endhighlight %}
 
 to change the directory into the folder name. A simple shortcut to change into the directory one level up is to type in:
 
 {% highlight bash %}
-cd ..
+    cd ..
 {% endhighlight %}
 
 In Unix, one dot "." resembles the current directory, while two dots ".." signifies one directory up. To reiterate, if my folder structure was:
 
-<code>~/folder/sample/structure/files</code>
+{% highlight bash %}
+    ~/folder/sample/structure/files
+{% endhighlight %}
 
 and I was in the "sample" folder, to get to the folder called "folder" I would simply just type:
 
 {% highlight bash %}
-cd ..
+    cd ..
 {% endhighlight %}
 
 To get to the folder labeled "structure" I would type:
 
 {% highlight bash %}
-cd structure
+    cd structure
 {% endhighlight %}
 
 It is that simple!

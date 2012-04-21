@@ -10,19 +10,31 @@ title: bash_profile
     <li>
       <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
       <span class="three columns">{{ post.date | date_to_string }}</span>
-      <a class="nine columns offset-by-four" href="{{site.url}}/all">See all posts</a>
-    </li>
   {% endif %}
   {% endfor %}
+  <a class="nine columns offset-by-four" href="{{site.url}}/all">See all posts</a>
+    </li>
+
+  <h3 class="nine columns offset-by-four">Ruby</h3>
+  {% for post in site.categories.ruby limit:10 %}
+  {% if post.article == true %}
+    <li>
+      <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
+      <span class="three columns">{{ post.date | date_to_string }}</span>  
+  {% endif %}
+  {% endfor %}
+  <a class="nine columns offset-by-four" href="{{site.url}}/ruby">See more Ruby posts</a>
+    </li>
 
   <h3 class="nine columns offset-by-four">Unix</h3>
   {% for post in site.categories.unix limit:10 %}
   {% if post.article == true %}
     <li>
       <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
-      <span class="three columns">{{ post.date | date_to_string }}</span>
-      <a class="nine columns offset-by-four" href="{{site.url}}/unix">See more Unix posts</a>
-    </li>
+      <span class="three columns">{{ post.date | date_to_string }}</span>  
   {% endif %}
   {% endfor %}
+  <a class="nine columns offset-by-four" href="{{site.url}}/unix">See more Unix posts</a>
+    </li>
+    
 </ul>
