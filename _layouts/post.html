@@ -7,6 +7,12 @@ blog: true
   <h1>{{ page.title }}</h1>
 </header>
 
+<div class='five columns offset-by-four'>
+<a href="https://plus.google.com/101180624276428786239?rel=author">
+By: Mark Miyashita
+</a>
+</div>
+
 <div class='five columns offset-by-four gray'>
   {{ page.date | date_to_string }}
 </div>
@@ -14,6 +20,7 @@ blog: true
 <div class='five columns' id='tweet'>
   <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{ page.title }}" data-count="horizontal" data-via="negativetwelve" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter Share']);">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </div>
+
 
 <article class='ten columns offset-by-four'>
   {{ content }}
