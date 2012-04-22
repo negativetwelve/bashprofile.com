@@ -15,7 +15,7 @@ By default, Lion comes prepackaged with Ruby 1.8.7. However, the one problem wit
 Step 1) Make sure you have a working version of Xcode 4.1 or greater running on your Mac. Versions 3.x.x will not work very well with Ruby and may cause some install problems. You can download the latest version of Xcode free from the App Store.
 
 Step 2) To check that you are running the right version of Xcode, open up Terminal by going to Applications > Utilities > Terminal and typing in:
-
+    
 {% highlight bash %}
     /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -version
 {% endhighlight %}
