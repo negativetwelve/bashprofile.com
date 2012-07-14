@@ -10,26 +10,25 @@ body {
 }
 
 #right-main {
-	float: left;
-	min-width: 400px;
+  float: left;
+  min-width: 400px;
   max-width: auto;
   height: 100%;
-	overflow-x: auto;
+  overflow-x: auto;
   margin: 0 150px 0 350px;
   padding:20px 40px;
 }
 
-#header-main {
-	
+#header-main {	
 }
 
 #main-middle {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 #wrapper {
-
 }
+
 h1, h2, h3, h4, h5, h6, .toc-h2 {
   font-family: 'Arvo', courier, serif;
   font-weight: normal;
@@ -40,14 +39,15 @@ h1, h2, h3, h4, h5, h6, .toc-h2 {
   border-bottom: 1px solid rgba(0,0,0, 0.15);
   padding:0 0 10px 0;
   position:relative;
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 h1 {
   border-bottom: 1px solid rgba(0,0,0, 0.15);
   padding:0 0 15px 0;
   position:relative;
-	margin-bottom: 15px;
+  margin-bottom: 15px;
+  line-height: 35px;
 }
 #wrapper h2 {
   padding-top: 30px;
