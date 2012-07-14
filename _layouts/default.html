@@ -1,87 +1,72 @@
-<!doctype html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> 	<html lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">	<!-- Force Latest IE rendering engine -->
-	<title>{{page.title}}</title>
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-  <link href="http://feeds.feedburner.com/bash_profile" rel="alternate" title="bash_profile" type="application/atom+xml" /> 
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
-
-    <!-- Place this tag in the <head> of your document -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bash Profile</title>
+    <meta name="description" content="Bash Profile is a tech website designed to provide you with the latest news and tech tips from around the web.">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic|Arvo:400,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/docs/css/main.css">
+    <link rel="shortcut icon" href="/favicon.ico">
     <script type="text/javascript">
-    window.___gcfg = {lang: 'en'};
-    (function() 
-    {var po = document.createElement("script");
-    po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(po, s);
-    })();</script>
 
-	<link rel="stylesheet" href="/static/css/skeleton.css">
-	<link rel="stylesheet" href="/static/css/base.css">
-	<link rel="stylesheet" href="/static/css/layout.css">
-	<link rel="stylesheet" href="/static/css/syntax.css">
-</head>
-<body>
-	<div class="container">	
-    <div id='mobile' class='two columns hidden'>
-      <ul>
-        <li><a href='/'>bash_profile</a></li>
-        <li><span class="gray"></span></li>
-        <li><a href="mailto:negativetwelve@gmail.com">negativetwelve@gmail.com</a></li>
-        <li><a href="http://twitter.com/negativetwelve">@negativetwelve</a></li>
-      </ul>
-    </div>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31023368-1']);
+      _gaq.push(['_trackPageview']);
 
-		<div class="four columns sidebar">
-      <section>
-        <h2><a href='/'>bash_profile</a></h2>
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-        <ul>
-          <li><span class="gray"></span></li>
-          <li><a href="mailto:negativetwelve@gmail.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);">negativetwelve@gmail.com</a></li>
-        </ul>
+    </script>
+  </head>
 
-          <div class="about-me"><a href="http://markmiyashita.com"><img src="http://www.gravatar.com/avatar/dca8ea2ef85135aca16bf2457cdee3eb?s=76" width="76" height="76"></a>
-          <h4>About Mark</h4>
-          I am currently a student at the University of California, Berkeley studying Electrical Engineering and Computer Science. I am passionate about data, programming, and web development.<br/>
-            <a href="http://markmiyashita.com">Read More »</a>
-          <div class="thats-me arrow"></div>                    
-        <br/></div>
+  <body>
+	<div id="main-middle">
+		
+		<div id="right-main">
+  		<div id="header-main">
+				<h1>Bash Profile</h1>
+	  	</div>
+	    <div id="wrapper">
+	      {{content}}
+	    </div>
+	  </div>
+		
+	  <div id="toc">
+			<div id="popularthreads" class="dsq-widget"><h2 class="dsq-widget-title">Popular Threads</h2><script type="text/javascript" src="http://bashprofile.disqus.com/popular_threads_widget.js?num_items=5"></script></div>
+			
+			<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-4993986820052195";
+			/* bashprofile - sidebar */
+			google_ad_slot = "8426538786";
+			google_ad_width = 300;
+			google_ad_height = 250;
+			//-->
+			</script>
+			<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+			
+			<div id="line-span"></div>
+			
+      <div id="about-me"><a href="http://markmiyashita.com"><img src="http://www.gravatar.com/avatar/dca8ea2ef85135aca16bf2457cdee3eb?s=90" width="90" height="90"></a></div><h4>About Mark Miyashita</h4>
+      <div id="blurb">I am currently a student at the University of California, Berkeley studying Electrical Engineering and Computer Science. I am passionate about data, programming, and web development.</div>
+			
+			<div id="line-span"></div>
+			
+			<ul>
+				<li><a href="http://markmiyashita.com">Personal Website</a></li>
+				<li><a href="http://github.com/negativetwelve">Github</a></li>
+				<li><a href="http://twitter.com/negativetwelve">Twitter</a></li>
+				<li><a href="http://hints.binaryage.com">Mac Hints From BinaryAge</a></li>
+			</ul>
+				
+	  </div>
+		
+	</div>
 
-        <ul>
-          <li><a href="http://github.com/negativetwelve" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here">Github</a></li>
-          <li><a href="http://twitter.com/negativetwelve" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me">Twitter</a></li>
-          <li><a href="https://plus.google.com/101180624276428786239?rel=author" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Google+']);">Google +</a></li>
-          <li>
-            <a href="http://feeds.feedburner.com/bash_profile"
-              onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar
-              RSS']);" title="Subscribe to get the latest blog posts
-              in to your news reader">RSS</a>
-          </li>
-          
-        </ul>
-      </section>
-    </div>
 
-    {{ content }}
-  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="/docs/js/main.js"></script>
 
-    <!-- Grab Google CDN's jQuery. fall back to local if necessary
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script>!window.jQuery && document.write(unescape('%3Cscript src="/static/js/jquery-1.4.2.min.js"%3E%3C/script%3E'))</script>
-    -->
-
-    <!-- Google Analytics -->
-    <script> var _gaq=[["_setAccount","UA-31023368-1"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
-  </body>
-</html> 
+</body>
+</html>

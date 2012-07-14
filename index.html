@@ -1,40 +1,15 @@
 ---
 layout: default
-title: bash_profile
+title: Bash Profile
 ---
 
-<ul id="posts">
-  <h3 class="nine columns offset-by-four">Most Recent</h3>
-  {% for post in site.posts limit:10 %}
-  {% if post.article == true %}
+<ul class="posts">
+{% for post in paginator.posts %}
     <li>
-      <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
-      <span class="three columns">{{ post.date | date_to_string }}</span>
-  {% endif %}
-  {% endfor %}
-  <a class="nine columns offset-by-four" href="{{site.url}}/all">See all posts</a>
+        <a href="{{ post.url | replace '.html','' }}" class="post-title">{{ post.title }}  </a>
+        {{ post.content | strip_html | truncatewords: 50 }} 
+        <a href="{{ post.url | replace '.html','' }}" class="post-readmore">(Read More)</a>
+        <div class="post-separator"></div>
     </li>
-
-  <h3 class="nine columns offset-by-four">Ruby</h3>
-  {% for post in site.categories.ruby limit:10 %}
-  {% if post.article == true %}
-    <li>
-      <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
-      <span class="three columns">{{ post.date | date_to_string }}</span>  
-  {% endif %}
-  {% endfor %}
-  <a class="nine columns offset-by-four" href="{{site.url}}/ruby">See more Ruby posts</a>
-    </li>
-
-  <h3 class="nine columns offset-by-four">Unix</h3>
-  {% for post in site.categories.unix limit:10 %}
-  {% if post.article == true %}
-    <li>
-      <a class="nine columns offset-by-four" href="{{ post.url }}">{{ post.title }}</a>
-      <span class="three columns">{{ post.date | date_to_string }}</span>  
-  {% endif %}
-  {% endfor %}
-  <a class="nine columns offset-by-four" href="{{site.url}}/unix">See more Unix posts</a>
-    </li>
-    
+{% endfor %}
 </ul>

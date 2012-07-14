@@ -1,13 +1,11 @@
 ---
-layout: unix-post
+layout: post
 title: "[Unix] How to Change Directories"
 tags: [unix, cd, commands, linux, directories, folders]
 author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239
 date: 2012-04-19 13:49:00 -8
-categories: unix
-article: true
 ---
 
 In Unix or any sort of Terminal interface the quickest way to navigate through folders is to use the <code>cd</code> command. You simply type:
