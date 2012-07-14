@@ -10,12 +10,11 @@ body {
 }
 
 #right-main {
-  float: left;
-  min-width: 400px;
+  display: table-cell;
+  vertical-align: top;
+//  min-width: 400px;
   max-width: auto;
-  height: 100%;
-  overflow-x: auto;
-  margin: 0 150px 0 350px;
+  margin: 0 150px 0 50px;
   padding:20px 40px;
 }
 
@@ -23,10 +22,11 @@ body {
 }
 
 #main-middle {
-  overflow: hidden;
+	display: table;
 }
 
 #wrapper {
+//  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6, .toc-h2 {
@@ -66,17 +66,19 @@ h1 span {
   text-shadow: 0 1px 0 rgba(0,0,0, 0.15);
   padding:5px 15px;
   border-radius:3px;
-  position:absolute;
-  top:0;
-  right:0;
+  position: absolute;
+  top: 0;
+  right: 0;
   box-shadow: rgba(255,255,255, 0.75) 0 1px 0, rgba(0,0,0, 0.15) 0 1px 3px inset;
 }
 pre {
   border:1px solid #000;
-  overflow-x:auto;
+//  max-width: 600px;
+//  overflow-x:auto;
   background: #222;
   color: #fff;
   text-shadow: none;
+  padding-right: 30px;
 }
 p {
   margin:5px 0;
@@ -98,8 +100,8 @@ a:hover {
 }
 
 a.dsq-widget-thread {
-	font-weight: bold;
-	font-size: 12px;
+  font-weight: bold;
+  font-size: 12px;
 }
 .example {
   font-weight:bold;
@@ -108,23 +110,21 @@ a.dsq-widget-thread {
 
 #about-me {
   display: block;
-	float: left;
-	padding-right: 10px;
-	padding-bottom: 10px;
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 #blurb {
 }
 
 #toc {
-  float: left;
+  display: table-cell;
+  vertical-align: top;
   width: 300px;
-  height: 100%;
-	font-size: 11px;
-	line-height: 15px;
+  font-size: 11px;
+  line-height: 15px;
   padding: 0 20px 0 20px;
-  position: fixed;
-  overflow: auto;
   background: rgba(0,0,0, 0.08);
   box-shadow: rgba(0,0,0,0.15) -1px 0 8px inset;
 }
@@ -132,8 +132,8 @@ a.dsq-widget-thread {
   font-family: 'Lato', 'Helvetica Neue', helvetica, arial, sans-serif;
   list-style-type: none;
   padding: 0;
-	padding-bottom: 10px;
-	margin: 0 0 10px 0;
+  padding-bottom: 10px;
+  margin: 0 0 10px 0;
   border-bottom: 1px solid rgba(0,0,0, 0.15);
 }
 #toc li {
