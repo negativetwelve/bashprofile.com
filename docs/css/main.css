@@ -12,6 +12,7 @@ body {
 #right-main {
   display: table-cell;
   vertical-align: top;
+  height: 1200px;
 //  min-width: 400px;
   max-width: auto;
   margin: 0 150px 0 50px;
