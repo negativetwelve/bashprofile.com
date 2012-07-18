@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Python] How to Install Python 3 on your Mac"
-tags: [python, intro, installation]
+tags: [python, intro, installation, programming]
 author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239

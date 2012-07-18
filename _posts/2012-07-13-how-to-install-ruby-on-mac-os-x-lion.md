@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Ruby] How to Install Ruby on Mac OS X Lion"
-tags: [ruby, mac os x, install, guide, tutorial, programming]
+tags: [ruby, mac os x, installation, programming]
 author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Unix] How to Change Directories"
-tags: [unix, cd, commands, linux, directories, folders]
+tags: [unix, tutorials, intro]
 author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239
