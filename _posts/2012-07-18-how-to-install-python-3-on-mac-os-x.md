@@ -19,12 +19,17 @@ Step 3) Now, when you open up terminal and type in "python", version 2.7 still a
 Step 4) To streamline this process even further, you can add an alias for "python3" and call it "python" so that no matter what, Python 3.x.x will always open whether you type "python" or "python3." To do this, open up Terminal.
 
 Step 5) At the command prompt, if you are comfortable with VIM, type:
+{% highlight bash %}
     vim ~/.bash_profile
+{% endhighlight %}
 If not, type:
+{% highlight bash %}
     open ~/.bash_profile
+{% endhighlight %}
 And this will open up the file in your default text editor. Add the following line to the file and save:
+{% highlight bash %}
     alias python="python3"
-    
+{% endhighlight %}    
 Step 6) That's it! Now when you type "python" into Terminal, Python 3.x.x will open by default! 
 
 Happy programming!
