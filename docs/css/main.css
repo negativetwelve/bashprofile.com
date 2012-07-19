@@ -1,9 +1,13 @@
 body {
   background-color: #e1dcb8;
   background: url(../images/bg-glow.png) repeat-x center top fixed, url(../images/bg-texture.png) repeat center top fixed;
-  font-family: 'Lato', 'Helvetica Neue', helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  //font-family: 'Lato', 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-family: proxima-nova-1, proxima-nova-2, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 16px;
+  font-weight: 300;
   color: rgba(0,0,0, 0.6);
   min-width: 1200px;
   min-height: 1500px;
@@ -118,7 +122,7 @@ pre {
 }
 
 p {
-  margin:5px 0;
+  margin:15px 0;
 }
 li {
   margin:10px 0;
