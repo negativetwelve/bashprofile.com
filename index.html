@@ -22,10 +22,3 @@ title: Bash Profile
 
   {% endif %}
 {% endfor %}
-
-{% for post in paginator.posts %}
-	<div id="square_post">
-        <a href="{{ post.url | replace '.html','' }}" class="post-title">{{ post.title }}  </a>
-		{{ post.tags | array_to_sentence_string }}
-	</div>
-{% endfor %}

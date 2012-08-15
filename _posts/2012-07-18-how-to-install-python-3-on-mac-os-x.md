@@ -6,9 +6,13 @@ author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239
 date: 2012-07-18 01:58:00 -8
+image: python.jpeg
 
 category: Python
+featured: true
+feature-number: 0
 ---
+<img class="post-image" src="{{site.url}}/images/python.jpeg" title="Python">
 
 By default, your Mac comes installed with Python 2.7, no installation necessary! However, if you want some of the new features of Python such as "print" being a function now instead of a standalone command, then you are going to want to install Python 3.2.3. Follow the steps below to get started:  
 
