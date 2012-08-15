@@ -4,13 +4,10 @@ title: Bash Profile
 ---
 <meta><a href="https://plus.google.com/101180624276428786239?rel=author"></a></meta>
 
-<ul class="posts">
+
 {% for post in paginator.posts %}
-    <li>
+	<div id="square_post">
         <a href="{{ post.url | replace '.html','' }}" class="post-title">{{ post.title }}  </a>
-        {{ post.content | strip_html | truncatewords: 50 }} 
-        <a href="{{ post.url | replace '.html','' }}" class="post-readmore">(Read More)</a>
-        <div class="post-separator"></div>
-    </li>
+		{{ post.tags | array_to_sentence_string }}
+	</div>
 {% endfor %}
-</ul>

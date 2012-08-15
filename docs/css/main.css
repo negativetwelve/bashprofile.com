@@ -16,6 +16,10 @@ body {
   zoom: 100%;
 }
 
+.post-image {
+
+}
+
 #header-top {
   width: auto;
   height: 40px;
@@ -25,6 +29,13 @@ body {
   padding: 20px;
   background: rgba(0,0,0, 1);
   font-color: white;
+}
+
+#square_post {
+	float: left;
+	width: 300px;
+	height: 250px;
+	border: 1px solid black;
 }
 
 #header-menu {
