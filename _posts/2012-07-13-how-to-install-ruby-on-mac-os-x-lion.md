@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "[Ruby] How to Install Ruby on Mac OS X Lion"
+title: "How to Install Ruby on Mac OS X Lion"
 tags: [ruby, mac os x, installation, programming]
 author_name: Mark Miyashita
 author_url: http://markmiyashita.com
 google_plus: 101180624276428786239
 date: 2012-07-13 21:01:00 -8
+
+category: Ruby on Rails
 ---
 
 By default, Lion comes prepackaged with Ruby 1.8.7. However, the one problem with this is that 1.8.7 is outdated. At the time of this post, the most recent version is 1.9.3 which is the environment most current apps are being written in. This guide will help you through the process of setting up Ruby 1.9.3 on your Mac OS X Lion machine.

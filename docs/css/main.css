@@ -112,13 +112,18 @@ h1 span {
 }
 
 pre {
-  border:1px solid #000;
-//  max-width: 600px;
-//  overflow-x:auto;
-  background: #222;
-  color: #fff;
-  text-shadow: none;
-  padding-right: 30px;
+//  border:1px solid #000;
+//  background: #222;
+//  color: #fff;
+//  text-shadow: none;
+//  padding-right: 30px;
+  background-color: #F8F8F8;
+  border: 1px solid #CCC;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
 }
 
 p {
