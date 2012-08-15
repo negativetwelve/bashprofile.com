@@ -12,8 +12,6 @@ category: Ruby on Rails
 featured: true
 feature-number: 0
 ---
-<img class="post-image" src="{{site.url}}/images/ruby.jpeg" title="Ruby on Rails">
-
 By default, Lion comes prepackaged with Ruby 1.8.7. However, the one problem with this is that 1.8.7 is outdated. At the time of this post, the most recent version is 1.9.3 which is the environment most current apps are being written in. This guide will help you through the process of setting up Ruby 1.9.3 on your Mac OS X Lion machine.
 
 Step 1) Make sure you have a working version of Xcode 4.1 or greater running on your Mac. Versions 3.x.x will not work very well with Ruby and may cause some install problems. You can download the latest version of Xcode free from the App Store.
