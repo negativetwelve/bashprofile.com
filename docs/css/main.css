@@ -20,6 +20,21 @@ body {
 	width: 100%;
 }
 
+.image-title-main a {
+	color: white;
+}
+
+.image-title-main a:hover {
+	color: white;
+}
+
+.overlay-image {
+	background: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+}
+
 .post-image {
     background-color: #F8F8F8;
     border: 1px solid #CCC;
@@ -53,10 +68,14 @@ body {
 	opacity: 0.5;
 }
 
+.background-image:hover {
+	opacity: 0.8;
+}
+
 .image-title {
 	position: absolute;
 	top: 20px;
-	left: 10px;
+	left: 0px;
 	background: black;
 	padding: 5px 10px;
 	color: white;
@@ -64,6 +83,7 @@ body {
 
 .image-title-main {
 	font-size: 20px;
+	line-height: 20px;
 }
 
 .image-title-subtitle {
@@ -72,7 +92,10 @@ body {
 }
 
 .featured-image {
-
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 100%;
 }
 
 #header-top {
