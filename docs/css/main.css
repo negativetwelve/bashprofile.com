@@ -49,6 +49,17 @@ body {
 //    border: 1px solid #999;
 }
 
+.post-image-small {
+    background-color: #F8F8F8;
+    border: 1px solid #CCC;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    display: block;
+}
+
 .featured-first {
 	position: relative;
 	top: 0;

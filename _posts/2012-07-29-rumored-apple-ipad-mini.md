@@ -12,6 +12,6 @@ category: iPad
 featured: true
 feature-number: 0
 ---
-<img class="post-image" src="{{site.url}}/images/ipad_rumor.jpeg" title="iPad Mini">
+<img class="post-image-small" src="{{site.url}}/images/ipad_rumor.jpeg" title="iPad Mini">
 
 Ever wondered if Apple would join the tablet market with a smaller version of the original iPad? Well that question may be answered soon. There is a rumored Mini iPad to be released in September. It will most likely be a strong competitor with other tablets already on the market.
