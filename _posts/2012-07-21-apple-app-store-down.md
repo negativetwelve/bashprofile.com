@@ -10,7 +10,7 @@ image: app_store.png
 
 category: News
 featured: true
-feature-number: 2
+feature-number: 0
 ---
 
 <img class="post-image" src="{{site.url}}/images/app_store.png" title="App Store">
