@@ -9,6 +9,8 @@ date: 2012-07-13 21:15:00 -8
 image: terminal.png
 
 category: Unix
+featured: true
+feature-number: 0
 ---
 
 <img class="post-image" src="{{site.url}}/images/terminal.png" title="Terminal">

@@ -4,6 +4,24 @@ title: Bash Profile
 ---
 <meta><a href="https://plus.google.com/101180624276428786239?rel=author"></a></meta>
 
+{% for post in paginator.posts %}
+  {% if post.featured %}
+  <div class="featured-first">
+    <div class="background-image">
+		<a href="{{post.url}}"><img class="featured-image" src="{{site.url}}/images/{{ post.image }}" title="{{ post.title }}" opacity="0.5"></a>
+	</div>
+	<div class="image-title">
+  	  <div class="image-title-main">
+	  	{{ post.title }}
+	  </div>
+	  <div class="image-title-subtitle">
+		By: {{ post.author_name }}
+	  </div>
+	</div>
+  </div>
+
+  {% endif %}
+{% endfor %}
 
 {% for post in paginator.posts %}
 	<div id="square_post">
